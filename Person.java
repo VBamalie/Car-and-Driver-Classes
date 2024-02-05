@@ -3,7 +3,7 @@ public class Person {
     private int _age; //age  in years
     private int _height; //in inches
     private boolean _stickDriver; //whether the driver and drive a manual transistor
-
+    
     Person(){
     }
     //SETTERS//
@@ -34,14 +34,16 @@ public class Person {
     public boolean getStickDriver(){
         return _stickDriver;
     }
-
-
+    
     
     public String toString() {
         if(_stickDriver){
             return "You are named "+ _name + ". You are " + _age + " years old and " + _height + " inches tall. You can drive a stick.";
         }else{
             return "You are named "+ _name + ". You are " + _age + " years old and " + _height + " inches tall. You cannot drive a stick.";
-        }
-    }
+        }//endif
+    }//end toString
+
+   
 }
+

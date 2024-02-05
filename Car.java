@@ -5,6 +5,7 @@ public class Car {
     private String _color; //color of vehicle
     private int _headroom; //headroom in inches
     private boolean _isManual; //whether it is stick shift or an automatic
+    private Person _driver; //the driver that chose the car
 
     
     public String toString() {
@@ -43,6 +44,9 @@ public class Car {
     public void setIsManual(boolean isManual){
         this._isManual = isManual;
     }
+    public void setDriver(Person driver){
+        this._driver = driver;
+    }
     
     //GETTERS//
     
@@ -64,4 +68,8 @@ public class Car {
     public boolean getIsManual(){
         return _isManual;
     }
+    public Person getDriver(){
+        return _driver;
+    }
 }
+

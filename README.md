@@ -1,2 +1,13 @@
-# Car-and-Driver-Classes
-a program that finds a car based off the user's information
+#Cars and Drivers
+
+##Basic Overview
+A program that tries to find viable cars for three users.
+<img width="468" alt="image" src="https://github.com/VBamalie/Car-and-Driver-Classes/assets/101467130/b6d1056a-a9fe-471f-9450-62cdc8820ffc">
+Installation instructions and Requirements
+Make sure you have JDK and Git installed. 
+In a command prompt type:
+ 
+ Either use and IDE to run the program or move into the bin folder and type:
+ 
+Design Notes
+ <img width="414" alt="image" src="https://github.com/VBamalie/Car-and-Driver-Classes/assets/101467130/080019ff-957a-4b44-b84e-95fa2c4b2a04">
